@@ -7,8 +7,8 @@ from flask import Flask, request, jsonify, render_template
 app = Flask(__name__)
 
 # Spotify API Credentials
-SPOTIFY_CLIENT_ID = "f7da951421454e2db2dd4f3d5962b835"
-SPOTIFY_CLIENT_SECRET = "73843ff6b00649219698721a70fe0efe"
+SPOTIFY_CLIENT_ID = ""
+SPOTIFY_CLIENT_SECRET = ""
 
 # Initialize Spotify client
 sp = spotipy.Spotify(client_credentials_manager=SpotifyClientCredentials(
